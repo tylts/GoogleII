@@ -1,0 +1,1 @@
+My goal is to copy Google's homepage and style using HTML and CSS.
