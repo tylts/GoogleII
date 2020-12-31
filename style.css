@@ -122,9 +122,9 @@ form {
 #bottom-nav {
     background: #f2f2f2;
     line-height: 40px;
-    min-width: 980px;
+    /* min-width: 980px; */
     border-top: 1px solid #dadce0;
-    min-width: 400px;
+    /* min-width: 400px; */
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -159,4 +159,19 @@ form {
     vertical-align: middle;
     padding: 12px;
     color: #000;
+}
+
+@media screen and (max-width: 450px) {
+    #top-nav {
+        display: block;
+    }
+    #logo {
+        width: 100%;
+    }
+    #bottom-nav {
+        display: block;
+    }
+    #bottom-right-navbar, #bottom-left-navbar, #top-right-navbar, #top-left-navbar {
+        justify-content: center;
+    }
 }
